@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.first {
+	position: relative;
+	width: 100%;
+}
+h1 span	{
+	text-align: left;
+	color: white;
+	font:bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background:rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+}	
+h1 {
+	position: absolute;
+	top: 200px
+	left:0;
+	width: 100%
+}
+h1 span.spacer {
+	padding: 0 0px;
+}
+.name {
+	color: blue;
+}
+h4 {
+	text-align: left;
+}
+ul {
+	text-align: left;
+	color: gray
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0; 
+	border-bottom: 1px solid rgb(0,0,0) rgba(0,0,0,.5)
+	margin:	1em 0;
+	padding: 0;
+}
