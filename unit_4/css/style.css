@@ -1,49 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-size: 16px;
+}
+.logo{
+	position: center;
+}
 .first {
 	position: left;
 	width: 60%;
 }
-.img {
-	position: absolute;
-	top:0; bottom: 0; left: 0; right: 0;
-	margin: auto;
-}
 .menu {
-	font-size: 10em
-	font-family: "Century Gothic"; Verdana; "Sans-serif";
+	font-size: 10em;
+	font-family:"Century Gothic", Verdana, "Sans-serif";
 	text-align: center;
 	text-transform: uppercase;
 
 	}
-h1 span	{
-	text-align: left;
-	color: white;
-	font:bold 24px/45px Helvetica, Sans-Serif;
-	letter-spacing: -1px;
-	background:rgb(0,0,0);
-	background: rgba(0,0,0,0.7);
-	padding: 10px;
-}	
+
 h1 {
 	font-family: "Century Gothic"; Verdana; "Sans-Serif";
 	font-weight: thin;
 	color: #333333;
 	text-transform: uppercase;
 }
-h1 span.spacer {
-	padding: 0 0px;
-}
+
 p {
-	font-family: "Book Antiqua"; Palatino; serif;
+	font-family: "Crimson Text"; "Book Antiqua"; serif;
 	color: #333333;
-	font-size: 1em;
-}
-.name {
-	color: blue;
+	font-size: 1.25em;
 }
 h4 {
 	text-align: left;
@@ -55,6 +46,17 @@ ul {
 .side {
 	width: 10%;
 }
-.plinks {
+.links {
 	font-style: italic;
+}
+.bpost {
+
+}
+.bio {
+	
+}
+header {
+	background-color: #302C2D;
+	border: 1px black solid;
+	padding: 20px;
 }

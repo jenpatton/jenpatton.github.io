@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+.logo{
+	position: center;
+}
+.first {
+	position: left;
+	width: 60%;
+}
+.menu {
+	font-size: 10em;
+	font-family:"Century Gothic", Verdana, "Sans-serif";
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #E8C66a
+	border: 1px black solid;
+	padding: 20px
+}
+
+h1 {
+	font-family: "Century Gothic"; Verdana; "Sans-Serif";
+	font-weight: thin;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Crimson Text"; "Book Antiqua"; serif;
+	color: #333333;
+	font-size: 1.25em;
+}
+h4 {
+	text-align: left;
+}
+ul {
+	text-align: left;
+	color: gray
+}
+.side {
+	width: 10%;
+}
+.links {
+	font-style: italic;
+}
+.bpost {
+
+}
+.bio {
+	
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #E89C6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
