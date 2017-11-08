@@ -10,14 +10,14 @@ body {
 	font-size: 16px;
 }
 .logo{
-	position: center;
+	position: relative;
 }
 .first {
 	position: left;
 	width: 60%;
 }
 .menu {
-	font-size: 10em;
+	font-size: 1em;
 	font-family:"Century Gothic", Verdana, "Sans-serif";
 	text-align: center;
 	text-transform: uppercase;
