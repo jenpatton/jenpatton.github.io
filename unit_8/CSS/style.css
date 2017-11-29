@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.first {
+	position: left;
+	width: 60%;
+}
+.nav {
+	font-size: 1em;
+	font-family:"Century Gothic", Verdana, "Sans-serif";
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #E8C66a
+	border: 1px black solid;
+	padding: 1%;
+}
+
+h2 {
+	font-family: "Century Gothic"; Verdana; "Sans-Serif";
+	font-weight: thin;
+	color: #333333;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: "Crimson Text"; "Book Antiqua"; serif;
+	color: #333333;
+	font-size: 1em;
+}
+h4 {
+	text-align: left;
+}
+ul {
+	text-align: left;
+	color: gray
+}
+.side {
+	width: 50%;
+}
+.plinks {
+	font-style: italic;
+	line-height: 110%;
+	font-family: "Crimson Text"; "Book Antiqua"; serif;
+}
+
+.links {
+	list-style-type: none;
+	font-style: normal;
+	font-family: "Crimson Text"; "Book Antiqua"; serif;
+}
+
+a:link {
+	color: #333;
+}
+
+a:visited {
+	color: black;
+}
+.bpost {
+
+}
+.bio {
+	
+}
+header {
+	padding: 2%;
+	border-bottom: 1px solid #d3d3d3;
+}
+aside {
+
+	padding: 2%;
+}
+article {
+
+	padding: 2%;
+}
+section {
+	padding: 2%;
+}
+
+footer {
+	padding: 2%;
+	font-family: "Crimson Text"; "Book Antiqua"; serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+#two_column {
+	background-color: #FFB7CF;
+	padding: 2%;
+}
+
+#left {
+	padding: 2%;
+	float: left;
+	width: 72%;
+}
+
+#right {
+	padding: 2%;
+	float: right;
+	width: 25%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.wrapper {
+	width: 90%;
+	height: auto;
+	border:	1px solid #d3d3d3;
+	margin: 2% auto;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
